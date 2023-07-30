@@ -20,7 +20,13 @@
     padding: 0;
 }
 
-body {
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.mobile-wrapper {
+    overflow: auto;
     font-family: 'Lato', sans-serif;
     background: var(--bg-base);
     width: 100vw;
@@ -28,10 +34,10 @@ body {
 }
 
 .mobview {
-    position: relative;
+    overflow: auto;
     width: 100%;
     max-width: 480px;
-    height: 100vh;
+    height: calc(100vh - 20px);
 }
 
 .bg-white {
@@ -175,6 +181,10 @@ body {
     font-weight: 600;
 }
 
+.mx-auto {
+    margin: auto;
+}
+
 .p-1 {
     padding: 0.5em;
 }
@@ -256,9 +266,5 @@ body {
 }
 
 @media only screen and (min-width: 480px) {
-    .mobview {
-        position: relative;
-        left: calc(50% - 240px);
-    }
 }
 
