@@ -27,7 +27,7 @@ a {
 
 .mobile-wrapper {
     overflow: auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'nunito', sans-serif;
     background: var(--bg-base);
     width: 100vw;
     height: 100vh;
@@ -38,6 +38,10 @@ a {
     width: 100%;
     max-width: 480px;
     height: calc(100vh - 20px);
+}
+
+.description {
+    width: 290px;
 }
 
 .bg-white {
@@ -84,19 +88,18 @@ a {
 }
 
 .content {
+    padding: 1rem;
     position:relative;
     z-index: 1;
-    width: 100%;
-    height: 100%;
 }
 
 .logo {
     background: url("/assets/img/simplycist.svg");
     background-position: center;
-    background-size: 200px;
+    background-size: 75px;
     background-repeat: no-repeat;
-    width: 200px;
-    height: 200px;
+    width: 75px;
+    height: 75px;
 }
 
 .links {
@@ -107,7 +110,7 @@ a {
 
 .links .item {
     background: white;
-    padding: 1rem 2rem;
+    padding: 0.5rem;
     width: 275px;
     border-radius: 10px;
     cursor: pointer;
@@ -177,7 +180,14 @@ a {
     color: #262626;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .footer {
+    position: relative;
+    text-align: center;
+    z-index: 1;
     font-weight: 600;
 }
 
