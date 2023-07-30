@@ -72,7 +72,7 @@ a {
     background-size: cover;
     width: 100%;
     max-width: 480px;
-    aspect-ratio: 1/0.69;
+    aspect-ratio: 1/0.695;
 }
 
 .bubble {
@@ -84,7 +84,7 @@ a {
     background-size: cover;
     width: 100%;
     max-width: 480px;
-    height: 250px;
+    aspect-ratio: 1/0.486;
 }
 
 .content {
