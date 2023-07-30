@@ -37,7 +37,7 @@ a {
     overflow: auto;
     width: 100%;
     max-width: 480px;
-    height: calc(100vh - 20px);
+    height: 100vh;
 }
 
 .description {
